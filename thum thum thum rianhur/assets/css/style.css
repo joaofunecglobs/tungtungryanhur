@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+}
+
+.top-header {
+  background-color: #0D0D0D;
+  height: 179px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-logo h1 {
+  font-size: 24px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+.nav-logo,.nav-card {
+  background-color: #1A1A1A;
+  border-radius: 8px;
+  padding: 0 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-card a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+#titulo_da_home {
+  padding: 60px 40px 20px;
+  font-size: 32px;
+}
+
+#breve_apresentacao {
+  padding: 0 40px;
+  max-width: 700px;
+}
+
+#breve_apresentacao p {
+  color: #8C8C8C;
+  line-height: 1.6;
+  font-size: 20px;
+}
+/* ===== Pagina Sobre ===== */
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 40px;
+}
+
+#titulo_do_sobre {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+#apresentacao_completa {
+ width: 100%;
+}
+
+#apresentacao_completa p {
+  color: #8C8C8C;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+/* ===== PÁGINA DE DESTINOS ===== */
+.destinos-main {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+#titulo_destinos {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+#subtitulo_destinos {
+  color: #8C8C8C;
+  margin-bottom: 40px;
+}
+
+.destinos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.destino-card {
+  background-color: #1A1A1A;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.destino-card h2 {
+  font-size: 20px;
+}
+
+.destino-desc {
+  color: #8C8C8C;
+  font-size: 14px;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.destino-preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.btn-comprar {
+  background-color: #E10600;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 8px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-comprar:hover {
+  background-color: #ff2b1f;
+  transform: scale(1.03);
+}
